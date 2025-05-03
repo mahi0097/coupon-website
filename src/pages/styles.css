@@ -1,5 +1,211 @@
-/* Auth page styles for separate login/signup pages */
-.auth-page-container {
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #faf9f6;
+  }
+  
+  /* Common styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .btn-primary {
+    background-color: #f4743b;
+    color: white;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e56227;
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    color: #f4743b;
+    border: 1px solid #f4743b;
+  }
+  
+  .btn-outline:hover {
+    background-color: rgba(244, 116, 59, 0.1);
+  }
+  
+  .rounded-full {
+    border-radius: 999px;
+  }
+  
+  .rounded-xl {
+    border-radius: 12px;
+  }
+  
+  /* Home page styles */
+  .home-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  .hero {
+    background-color: #fff7ed;
+    padding: 50px 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    line-height: 1.1;
+  }
+  
+  .hero p {
+    margin-bottom: 24px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+  }
+  
+  .blob {
+    position: absolute;
+    background-color: #ffd7ba;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+  
+  .blob-1 {
+    width: 80px;
+    height: 80px;
+    right: 80px;
+    top: 40px;
+  }
+  
+  .blob-2 {
+    width: 200px;
+    height: 150px;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .blob-3 {
+    width: 50px;
+    height: 50px;
+    right: 150px;
+    bottom: 40px;
+  }
+  
+  .feature-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px 0;
+    font-weight: 600;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 0 30px 50px;
+  }
+  
+  .feature-card {
+    background-color: #fff7ed;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(244, 116, 59, 0.2);
+    border-radius: 8px;
+    margin: 0 auto 16px;
+  }
+  
+  .feature-card h3 {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  .feature-icon-box {
+    width: 32px;
+    height: 32px;
+    background-color: #f4743b;
+  }
+  
+  .feature-icon-arrow {
+    color: #f4743b;
+    font-size: 1.5rem;
+  }
+  
+  .footer {
+    background-color: #fff7ed;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Auth page styles for separate login/signup pages */
+  .auth-page-container {
     display: flex;
     justify-content: center;
     align-items: center;
