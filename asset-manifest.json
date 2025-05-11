@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/coupon-website/static/css/main.e6c13ad2.css",
+    "main.js": "/coupon-website/static/js/main.7faaa3bc.js",
+    "index.html": "/coupon-website/index.html",
+    "main.e6c13ad2.css.map": "/coupon-website/static/css/main.e6c13ad2.css.map",
+    "main.7faaa3bc.js.map": "/coupon-website/static/js/main.7faaa3bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7faaa3bc.js"
+  ]
+}
